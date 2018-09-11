@@ -31,6 +31,9 @@ class App extends Component {
 
   handleFinish = () => {
     alert("finish");
+    this.setState({
+      page: 0
+    });
   }
 
 
